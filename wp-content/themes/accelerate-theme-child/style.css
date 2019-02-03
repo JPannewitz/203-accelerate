@@ -28,7 +28,7 @@ Text Domain:  accelerate-theme-child
 	margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.from-the-blog-healine {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
@@ -44,4 +44,89 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/***single CASE STUDIES****/
+
+.case-study-sidebar {
+  float: left;
+  margin-right: 75px;
+  width: 300px;
+}
+
+.case-study-sidebar h4 {
+  color: #45ac9d;
+}
+
+.case-study-images {
+  float: left;
+  margin-top: 50px;
+  width: 500px;
+}
+
+/*** homepage case studies ***/
+
+.featured-work {
+  margin-bottom: 75px;
+}
+
+.featured-work-headline {
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.homepage-featured-work {
+  list-style-type: none;
+  margin: 0px;
+  overflow: auto;
+}
+
+.individual-featured-work {
+  float: left;
+  margin-right: 20px;
+}
+
+.homepage-study-names {
+  text-align: center;
+  font-size: .85em;
+}
+
+
+/***ARCHIVE CASE STUDIES***/
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+/****ICON NAV MENU*****/
+
+ul.nav-list {
+  list-style-type: none;
+}
+
+li.nav-item {
+  border-radius: 50%;
+}
+
+
+i.fab {
+  color: black;
+  display: inline-block;
+  /* border-radius: 50%; */
+  margin-right: 10px;
+
+}
+
+/***CONTACT FORM****/
+div.primary-contact-us {
+  width: 40%;
+}
+
+
+
+input#nf-field-4 {
+  background: #45ac9d;
+  float: right;
 }
