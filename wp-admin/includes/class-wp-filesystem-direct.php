@@ -78,8 +78,8 @@ class WP_Filesystem_Direct extends WP_Filesystem_Base {
 
 		fclose( $fp );
 
-		if ( $data_length !== $bytes_written )
-			return false;
+		// if ( $data_length !== $bytes_written )
+		// 	return false;
 
 		$this->chmod( $file, $mode );
 
