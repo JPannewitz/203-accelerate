@@ -20,20 +20,7 @@
 				</div>
 
 				<nav class="social-media-navigation" role="navigation">
-					<!-- <?php wp_nav_menu( array( 'theme_location' => 'social-media', 'menu_class' => 'social-media-menu' ) ); ?> -->
-					<ul class="nav-list">
-        		<li class="nav-item">
-        			<a href="www.twitter.com" class="nav-link">
-        			     <i class="fab fa-twitter-square fa-2x"></i>
-        			</a>
-        			<a href="www.facebook.com" class="nav-link">
-        				<i class="fab fa-facebook fa-2x"></i>
-        			</a>
-        			<a href="www.linkedin.com" class="nav-link">
-        				<i class="fab fa-linkedin fa-2x"></i>
-        			</a>
-        		</li>
-	         </ul>
+					<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'menu_class' => 'social-media-menu' ) ); ?>
 				</nav>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->

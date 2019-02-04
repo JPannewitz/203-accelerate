@@ -102,21 +102,25 @@ div.case-study-images img {
 
 /****ICON NAV MENU*****/
 
-ul.nav-list {
+ul#menu-social-media-nav {
   list-style-type: none;
 }
 
-li.nav-item {
+li#menu-item-47358, li#menu-item-47359, li#menu-item-47360 {
+  background: black;
   border-radius: 50%;
+  float: left;
+  height: 25px;
+  line-height: 1;
+  margin-right: 5px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 25px;
 }
 
-
-i.fab {
-  color: black;
-  display: inline-block;
-  /* border-radius: 50%; */
-  margin-right: 10px;
-
+a[href="http://www.twitter.com"], a[href="http://www.facebook.com"], a[href="http://www.linkedin.com"] {
+  color: white;
 }
 
 /***CONTACT FORM****/
