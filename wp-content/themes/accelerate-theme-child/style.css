@@ -134,3 +134,74 @@ input#nf-field-4 {
   background: #45ac9d;
   float: right;
 }
+
+/****ABOUT PAGE*****/
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 8em 0;
+	text-align: center;
+}
+
+.hero-content p {
+  color: white;
+  font-size: 1.5em;
+  width: 35%;
+}
+
+.services-list {
+  margin: 0px auto 60px auto;
+  width: 60%
+}
+
+.services-header {
+  margin: 40px auto 40px auto;
+  width: 525px;
+  text-align: center;
+}
+
+.all-caps {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.individual-service-left {
+  float: right;
+  width: 600px;
+}
+
+.individual-service-right {
+  float: left;
+  margin-right: 80px;
+  width: 600px;
+}
+
+.interested-in-working {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+/****404 page***/
+
+.content-404 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.content-404 h1, .link-404 {
+  font-family: 'Lobster', cursive, Arial, sans-serif;
+  font-size: 1.5em;
+  margin-top: 0px;
+  color: #45ac9d;
+}
+
+.map-image {
+  float: left;
+}
+
+.text-404 {
+  width: 65%;
+  float: left;
+  margin-left: 40px;
+}

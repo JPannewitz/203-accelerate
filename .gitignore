@@ -3,5 +3,3 @@
 wp-config.php
 .htaccess
 wp-content/uploads
-wp-content/themes/twentyfourteen/taxonomy-post_format.php
-wp-trackback.php

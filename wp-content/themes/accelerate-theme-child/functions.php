@@ -14,6 +14,7 @@
 function accelerate_child_scripts(){
 	wp_enqueue_style( 'accelerate-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'accelerate-style' ));
+	wp_enqueue_style( 'accelerate-chile-google-fonts', '//fonts.googleapis.com/css?family=Lobster' );
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
@@ -34,6 +35,6 @@ add_action( 'init', 'create_custom_post_types' );
 
 //enqueues our external font awesome stylesheet
 function enqueue_our_required_stylesheets(){
-	wp_enqueue_style('font-awesome', '//use.fontawesome.com/releases/v5.7.1/css/all.css'); 
+	wp_enqueue_style('font-awesome', '//use.fontawesome.com/releases/v5.7.1/css/all.css');
 }
 add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
