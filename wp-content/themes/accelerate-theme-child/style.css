@@ -22,10 +22,15 @@ Text Domain:  accelerate-theme-child
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+.site-content {
+  overflow: auto;
+}
+
 .blog-post {
 	width: 50%;
 	float: left;
 	margin-bottom: 2em;
+  margin-right: 100px;
 }
 
 .from-the-blog-healine {
@@ -204,4 +209,50 @@ input#nf-field-4 {
   width: 65%;
   float: left;
   margin-left: 40px;
+}
+
+
+/***twitter module***/
+
+.widget-area {
+  overflow: auto;
+}
+h4.twitter-headline {
+
+      font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+      color: #a6a6a6;
+      text-transform: uppercase;
+      margin: 2em 0 .5em;
+
+}
+
+h3.widget-title {
+
+    font-size: 1.5em;
+}
+
+ul.tweets {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.follow-us-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+span.stt-em {
+  color: white;
+}
+
+/***MAILCHIMP NEWSLETTER SIGN UP****/
+
+input.newsletter-input {
+  width: 200px;
+}
+
+input.newsletter-button {
+      background: none repeat scroll 0 0 #45ac9d;
 }
